@@ -1,0 +1,13 @@
+.container
+{
+    max-width: fit-content;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 4%;
+    padding: 20px;
+}
+.heading
+{
+    max-width: fit-content;
+    margin: auto;
+}
