@@ -1,0 +1,31 @@
+#Heading
+{
+    max-width: fit-content;
+    margin: auto;
+    margin-top: 10%;
+}
+.container
+{
+    max-width: fit-content;
+    border: 2px solid black;
+    margin: auto;
+    padding: 20px;
+    /* margin-top: 15%; */
+}
+
+#Num2
+{
+    margin-top: 25px;
+}
+
+#btn
+{
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+#Result
+{
+    margin-top: 20px;
+    margin-left: 15%;
+}
