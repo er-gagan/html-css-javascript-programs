@@ -3,8 +3,8 @@
     max-width: fit-content;
     margin: auto;
     border: 3px solid black;
-    border-radius: 4%;
-    padding: 20px;
+    border-radius: 10%;
+    padding: 30px;
 }
 .heading
 {
@@ -12,7 +12,7 @@
     margin: auto;
 }
 
-input
+.input
 {
     padding: 20px;
 }
@@ -41,8 +41,38 @@ input
     width: 18.4%;
     height: 60px;
 }
-#value
+.ScreenInput
 {
     text-align: right;
-    font-size: 18.9px;
+    font-size: 20.5px;
+    padding: 10px;
+}
+#value0
+{
+    border-bottom: 0px;
+    /* display: none; */
+    background-color: rgb(129, 245, 129);
+}
+#value1
+{
+    border-bottom: 0px;
+    border-top: 0px;
+    background-color: rgb(129, 245, 129);
+    /* display: none; */
+}
+#value2
+{
+    background-color: rgb(129, 245, 129);
+    /* display: none; */
+    border-top: 0px;
+
+}
+#value3
+{
+    border-top: 0px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }

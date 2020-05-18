@@ -14,33 +14,36 @@
         <h2>Calculator</h2>
     </div>
     <div class="container">
-        <input type="Number" id="value">
+        <input type="text" readonly class="ScreenInput" id="value0" ><br>
+        <input type="text" readonly class="ScreenInput" id="value1" ><br>
+        <input type="text" readonly class="ScreenInput" id="value2" ><br>
+        <input type="Number" autofocus class="ScreenInput" id="value3" placeholder="Please enter integers...">
         <hr>
         <div class="one">
-            <input type="Button" value="7" onclick="ButtonPress(7)">
-            <input type="Button" value="8" onclick="ButtonPress(8)">
-            <input type="Button" value="9" onclick="ButtonPress(9)">
-            <input type="Button" id="clear" value="Clear" onclick="Clear()">
+            <input type="Button" class="input" value="7" onclick="ButtonPress(7)">
+            <input type="Button" class="input" value="8" onclick="ButtonPress(8)">
+            <input type="Button" class="input" value="9" onclick="ButtonPress(9)">
+            <input type="Button" id="clear" class="input" value="Clear" onclick="Clear()">
         </div>
         <div class="two">
-            <input type="Button" value="4" onclick="ButtonPress(4)">
-            <input type="Button" value="5" onclick="ButtonPress(5)">
-            <input type="Button" value="6" onclick="ButtonPress(6)">
-            <input type="Button" class="PlusMinusDivideMulti" value="+" onclick="Plus()">
-            <input type="Button" class="PlusMinusDivideMulti" value="-" onclick="Minus()">
+            <input type="Button" class="input" value="4" onclick="ButtonPress(4)">
+            <input type="Button" class="input" value="5" onclick="ButtonPress(5)">
+            <input type="Button" class="input" value="6" onclick="ButtonPress(6)">
+            <input type="Button" class="PlusMinusDivideMulti input" value="+" onclick="Plus()">
+            <input type="Button" class="PlusMinusDivideMulti input" value="-" onclick="Minus()">
         </div>
         <div class="three">
-            <input type="Button" value="1" onclick="ButtonPress(1)">
-            <input type="Button" value="2" onclick="ButtonPress(2)">
-            <input type="Button" value="3" onclick="ButtonPress(3)">
-            <input type="Button" class="PlusMinusDivideMulti" value="x">
-            <input type="Button" class="PlusMinusDivideMulti" value="/">
+            <input type="Button" class="input" value="1" onclick="ButtonPress(1)">
+            <input type="Button" class="input" value="2" onclick="ButtonPress(2)">
+            <input type="Button" class="input" value="3" onclick="ButtonPress(3)">
+            <input type="Button" class="PlusMinusDivideMulti input" value="x" onclick="Multiply()">
+            <input type="Button" class="PlusMinusDivideMulti input" value="/" onclick="Divide()">
         </div>
         <div class="four">
-            <input type="Button" class="zero" value="0" onclick="ButtonPress(0)">
-            <input type="Button" class="zero" value="00" onclick="ButtonPress('00')">
-            <input class="EqualPow" type="Button" value="=" onclick="Equal()">
-            <button class="EqualPow"><p>X<sup>2</sup></p></button>
+            <input type="Button" class="zero input" value="0" onclick="ButtonPress(0)">
+            <input type="Button" class="zero input" value="00" onclick="ButtonPress('00')">
+            <input class="EqualPow input" type="Button" value="=" onclick="Equal()">
+            <button class="EqualPow" onclick="Power()"><p>X<sup>2</sup></p></button>
         </div>
     </div>
 </body>
