@@ -14,7 +14,7 @@
         <h2>Calculator</h2>
     </div>
     <div class="container">
-        <input type="text" id="value">
+        <input type="Number" id="value">
         <hr>
         <div class="one">
             <input type="Button" value="7" onclick="ButtonPress(7)">
@@ -26,8 +26,8 @@
             <input type="Button" value="4" onclick="ButtonPress(4)">
             <input type="Button" value="5" onclick="ButtonPress(5)">
             <input type="Button" value="6" onclick="ButtonPress(6)">
-            <input type="Button" class="PlusMinusDivideMulti" value="+">
-            <input type="Button" class="PlusMinusDivideMulti" value="-">
+            <input type="Button" class="PlusMinusDivideMulti" value="+" onclick="Plus()">
+            <input type="Button" class="PlusMinusDivideMulti" value="-" onclick="Minus()">
         </div>
         <div class="three">
             <input type="Button" value="1" onclick="ButtonPress(1)">
@@ -38,8 +38,8 @@
         </div>
         <div class="four">
             <input type="Button" class="zero" value="0" onclick="ButtonPress(0)">
-            <input type="Button" class="zero" value="00" onclick="ButtonPress(00)">
-            <input class="EqualPow" type="Button" value="=">
+            <input type="Button" class="zero" value="00" onclick="ButtonPress('00')">
+            <input class="EqualPow" type="Button" value="=" onclick="Equal()">
             <button class="EqualPow"><p>X<sup>2</sup></p></button>
         </div>
     </div>

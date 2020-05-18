@@ -9,6 +9,7 @@ function ButtonPress(val)
     }
     else
     {
+        document.getElementById("value").value=""
         document.getElementById("value").value=val
     }
 
@@ -17,4 +18,23 @@ function ButtonPress(val)
 function Clear()
 {
     location.reload()
+}
+
+let Num1=Num2=null
+
+function Plus()
+{
+    Num1 = Number(document.getElementById("value").value)
+    document.getElementById("value").value=""
+}
+
+function Equal()
+{   
+    Num2 = Number(document.getElementById("value").value)
+    document.getElementById("value").value=Num1+Num2
+}
+
+function Minus()
+{
+    Plus()
 }

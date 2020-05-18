@@ -38,6 +38,11 @@ input
 .EqualPow
 {
     margin-top: 5px;
-    width: 15%;
+    width: 18.4%;
     height: 60px;
+}
+#value
+{
+    text-align: right;
+    font-size: 18.9px;
 }
