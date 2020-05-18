@@ -11,3 +11,33 @@
     max-width: fit-content;
     margin: auto;
 }
+
+input
+{
+    padding: 20px;
+}
+
+.zero
+{
+    width: 29.3%;
+    margin-top: 5px;
+}
+
+#clear
+{
+    width:38.3%
+}
+.PlusMinusDivideMulti
+{
+    font-size: 20px;
+    padding: 18px;
+    width: 50px;
+    margin-top: 2px;
+}
+
+.EqualPow
+{
+    margin-top: 5px;
+    width: 15%;
+    height: 60px;
+}

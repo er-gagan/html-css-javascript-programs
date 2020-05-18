@@ -14,30 +14,33 @@
         <h2>Calculator</h2>
     </div>
     <div class="container">
-        <input type="text">
+        <input type="text" id="value">
         <hr>
         <div class="one">
-            <input type="Button" value="7">
-            <input type="Button" value="8">
-            <input type="Button" value="9">
+            <input type="Button" value="7" onclick="ButtonPress(7)">
+            <input type="Button" value="8" onclick="ButtonPress(8)">
+            <input type="Button" value="9" onclick="ButtonPress(9)">
+            <input type="Button" id="clear" value="Clear" onclick="Clear()">
         </div>
         <div class="two">
-            <input type="Button" value="4">
-            <input type="Button" value="5">
-            <input type="Button" value="6">
+            <input type="Button" value="4" onclick="ButtonPress(4)">
+            <input type="Button" value="5" onclick="ButtonPress(5)">
+            <input type="Button" value="6" onclick="ButtonPress(6)">
+            <input type="Button" class="PlusMinusDivideMulti" value="+">
+            <input type="Button" class="PlusMinusDivideMulti" value="-">
         </div>
         <div class="three">
-            <input type="Button" value="1">
-            <input type="Button" value="2">
-            <input type="Button" value="3">
+            <input type="Button" value="1" onclick="ButtonPress(1)">
+            <input type="Button" value="2" onclick="ButtonPress(2)">
+            <input type="Button" value="3" onclick="ButtonPress(3)">
+            <input type="Button" class="PlusMinusDivideMulti" value="x">
+            <input type="Button" class="PlusMinusDivideMulti" value="/">
         </div>
         <div class="four">
-            <input type="Button" value="0">
-            <input type="Button" value="+">
-            <input type="Button" value="-">
-            <input type="Button" value="x">
-            <input type="Button" value="/">
-            <input type="Button" value="=">
+            <input type="Button" class="zero" value="0" onclick="ButtonPress(0)">
+            <input type="Button" class="zero" value="00" onclick="ButtonPress(00)">
+            <input class="EqualPow" type="Button" value="=">
+            <button class="EqualPow"><p>X<sup>2</sup></p></button>
         </div>
     </div>
 </body>
